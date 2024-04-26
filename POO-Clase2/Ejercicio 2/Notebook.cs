@@ -8,7 +8,13 @@ namespace POO_Clase2.Ejercicio_2
 {
     public class Notebook : Maquina
     {
+        public int Peso { get; set; } 
 
+        public Notebook(string Marca, int Peso)
+        {
+            this.Peso = 250;
+            base.Marca = Marca;
+        }
 
     }
 }
